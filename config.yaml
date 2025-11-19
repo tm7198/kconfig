@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://s.jhb.edu.kg/sub?target=clash&url=https%3A%2F%2Fv19.kimyc.dpdns.org%2F7c8c3767-ad38-4697-8eb7-3347577e5e65%2Fsub&insert=false"
+    url: "https://s.jhb.edu.kg/sub?target=singbox&url=https%3A%2F%2Fv19.kimyc.dpdns.org%2F7c8c3767-ad38-4697-8eb7-3347577e5e65%2Fsub&insert=false"
     type: http
     interval: 86400
     health-check:
