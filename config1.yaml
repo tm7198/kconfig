@@ -11,7 +11,7 @@
 #制作日期：2024-11-21
 #更新日期：2023-03-19
 
-
+# 策略组定义
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -274,7 +274,7 @@ proxy-groups:
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
     type: select
-
+# 规则集
 rule-providers:
   LocalAreaNetwork:
     url: https://ghfast.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
@@ -495,7 +495,7 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
+# 路由规则
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
