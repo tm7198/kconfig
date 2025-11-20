@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://v19.kimyc.dpdns.org/7c8c3767-a697-8eb7-3347577e5e65/sub"
+    url: "https://kjfx.kimyc128.dpdns.org/sub/normal/83211de9-827a-4edf-8550-4473cd247583?app=clash#%F0%9F%92%A6%20BPB%20Normal"
     type: http
     interval: 86400
     health-check:
